@@ -1,0 +1,4 @@
+USE EZRentalDB;
+
+DELETE FROM CREDITCARDMERCHANT
+WHERE MerchantName = 'Clover';

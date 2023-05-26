@@ -1,0 +1,48 @@
+
+
+--USE DATABASE
+USE EZRentalDB;
+
+-- CREDITCARDMERCHANT table
+CREATE TABLE CreditCardMerchant (
+  MerchantCode TINYINT PRIMARY KEY CHECK (MerchantCode BETWEEN 1 AND 15),
+  MerchantName VARCHAR(50) UNIQUE NOT NULL
+);
+
+-- CREDITCARD table
+CREATE TABLE CreditCard (
+  CreditCardNumber VARCHAR(16) PRIMARY KEY,
+  CreditCardOwnerName VARCHAR(50) NOT NULL,
+  CreditCardIssuingCompany VARCHAR(50) NOT NULL,
+  MerchantCode TINYINT NOT NULL,
+  ExpDate DATE NOT NULL,
+  AddressLine1 VARCHAR(50) NOT NULL,
+  AddressLine2 VARCHAR(50) NULL,
+  City VARCHAR(50) NOT NULL,
+  StateCode CHAR(2) NOT NULL,
+  Zipcode VARCHAR(10) NOT NULL,
+  Country VARCHAR(50) NOT NULL,
+  CreditCardLimit DECIMAL(8, 2) NOT NULL,
+  CreditCardBalance DECIMAL(8, 2) NOT NULL,
+  ActivationStatus BIT NOT NULL,
+
+  CONSTRAINT fk_CreditCardMerchant_CreditCard
+  FOREIGN KEY (MerchantCode)
+  REFERENCES CreditCardMerchant(MerchantCode)
+  ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- USSTATE table
+CREATE TABLE USState (
+  StateID TINYINT PRIMARY KEY CHECK(StateID BETWEEN 1 AND 75),
+  StateCode2Char CHAR(2) UNIQUE NOT NULL,
+  StateName VARCHAR(30) UNIQUE NOT NULL
+);
+
+-- COUNTRY table
+CREATE TABLE Country (
+  CountryID TINYINT PRIMARY KEY CHECK(CountryID BETWEEN 1 AND 250),
+  CountryCode2Char CHAR(2) UNIQUE NOT NULL,
+  CountryCode3Char CHAR(3) UNIQUE NOT NULL,
+  CountryName VARCHAR(100) UNIQUE NOT NULL
+);
