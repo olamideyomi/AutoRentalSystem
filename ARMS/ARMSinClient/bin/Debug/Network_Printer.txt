@@ -1,0 +1,72 @@
+The Credit Card Information: 
+Credit Card Number = 123456789123451
+Credit Card Name = Olamide Yomi
+Credit Card Issuing Company = MasterCard
+Merchant Company Code = 10
+Merchant Company Name = Flagship Merchant Services
+Expiration Date = 7/29/2023 12:00:00 AM
+Billing Address Line 1 = 400 Jay St
+Billing Address Line 2 = MetroTech
+Billing City = Brooklyn
+Billing State = NY
+Billing Zipcode = 11201
+Billing Country = UNITED STATES
+Credit Limit = 3000.00
+Credit Balance = 3000.00
+Activation Status = True
+
+
+The Credit Card Information: 
+Credit Card Number = 123456789123451
+Credit Card Name = Olamide Yomi
+Credit Card Issuing Company = MasterCard
+Merchant Company Code = 10
+Merchant Company Name = Flagship Merchant Services
+Expiration Date = 7/29/2023 12:00:00 AM
+Billing Address Line 1 = 400 Jay St
+Billing Address Line 2 = MetroTech
+Billing City = Brooklyn
+Billing State = NY
+Billing Zipcode = 11201
+Billing Country = UNITED STATES
+Credit Limit = 3000.00
+Credit Balance = 3000.00
+Activation Status = True
+
+
+The Credit Card Information: 
+Credit Card Number = 123456789123451
+Credit Card Name = Olamide Yomi
+Credit Card Issuing Company = MasterCard
+Merchant Company Code = 10
+Merchant Company Name = Flagship Merchant Services
+Expiration Date = 7/29/2023 12:00:00 AM
+Billing Address Line 1 = 400 Jay St
+Billing Address Line 2 = MetroTech
+Billing City = Brooklyn
+Billing State = NY
+Billing Zipcode = 11201
+Billing Country = UNITED STATES
+Credit Limit = 3000.00
+Credit Balance = 3000.00
+Activation Status = True
+
+
+The Credit Card Information: 
+Credit Card Number = 1111111111111111
+Credit Card Name = Emily Thompson
+Credit Card Issuing Company = Bank of America
+Merchant Company Code = 2
+Merchant Company Name = Helcim
+Expiration Date = 1/1/2025 12:00:00 AM
+Billing Address Line 1 = 123 Elm St
+Billing Address Line 2 = Apt 4B
+Billing City = Raleigh
+Billing State = NC
+Billing Zipcode = 27601
+Billing Country = USA
+Credit Limit = 12000.00
+Credit Balance = 500.00
+Activation Status = True
+
+
